@@ -11,10 +11,16 @@ fun main() {
     for (valor in values){
         println(valor)
     }
-     values.forEach {
+    println("==========================")
+    values.forEach {
          println(it)
      }
+    println("==========================")
     values.forEach { valor->
         println(valor)
+    }
+    println("==========================")
+    for (index in values.indices) {
+        println(values[index])
     }
 }
