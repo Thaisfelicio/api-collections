@@ -11,5 +11,10 @@ fun main() {
     for (valor in values){
         println(valor)
     }
-
+     values.forEach {
+         println(it)
+     }
+    values.forEach { valor->
+        println(valor)
+    }
 }
