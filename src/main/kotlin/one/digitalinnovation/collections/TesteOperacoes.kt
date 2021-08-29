@@ -6,4 +6,13 @@ fun main () {
          println(salario)
      }
      println("¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨")
+    println( " Maior salário: ${salarios.max()}")
+    println( " Menor salário: ${salarios.min()}")
+    println( " Média salárial: ${salarios.average()}")
+ val salarioMaiorQue2500 = salarios.filter { it > 2500.0 }
+    println("¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨")
+    salarioMaiorQue2500.forEach { println(it) }
+
+
 }
+
