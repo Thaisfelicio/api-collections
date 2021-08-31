@@ -28,10 +28,10 @@ fun main () {
                           val tipocontratacao: String)
 {
         override fun toString(): String =
-            """""
+            """
         Nome:    $nome
         Salário: $salario
-        """""
+        """
            
         
         
